@@ -1,0 +1,34 @@
+﻿<html>
+<head>
+    <title>База даних</title>
+    <meta charset=utf-8>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+        <li><a href="main.html">Головна</a>
+            </li>
+            <li><a href="view.html">Перегляд</a>
+            </li>
+	    <li><a href="update.html">Оновити</a>
+            </li>
+	    <li><a href="delete.html">Видалити</a>
+	     </li>
+	    <li><a href="exit.html">Вийти</a>
+            </li>
+            </li>
+        </ul>
+    </div>
+
+<form action="/update.php">
+       ID для оновлення=<input type="text" name="UpID">
+<p>Нове ім'я=<input type="text" name="NewName">
+<p>Новий телефон=<input type="text" name="NewPhone">
+<p>Нова адреса=<input type="text" name="NewStreet">
+        <p><input type="submit" value="Оновити">
+</form>
+
+
+</body>
+</html>
